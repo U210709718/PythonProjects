@@ -99,11 +99,33 @@ print(new_list)
 coordinates = (23,45)
 print(coordinates[0])
 
+# list of tuples!
+list_of_tuples = [(2,4), (3,6) ,(8,0)] # CANNOT BE CHANGED !
 
 
+# FUNCTIONS :
+def say_hi (name, age):
+    print("Hi !" + name + " Your're age is :" +str(age) ) # CAST
+    # you cannot print a number with string! all of the above is  STRING!
+
+# call the function :
+say_hi("Seham",21)
 
 
+# Return statement :
+def cube(number):
+    return number * number * number
+print(cube(3))
 
+result = cube(4)
+print(result)
 
+def sum(number1 , number2):
+    return number1 + number2
 
+print(sum(2,6))
 
+def sub(number1 , number2):
+    return number1 - number2
+    # any statement after return will not appear!
+print(sub(2,6))
