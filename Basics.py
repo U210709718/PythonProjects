@@ -103,7 +103,7 @@ print(coordinates[0])
 list_of_tuples = [(2,4), (3,6) ,(8,0)] # CANNOT BE CHANGED !
 
 
-# FUNCTIONS :
+# * FUNCTIONS :
 def say_hi (name, age):
     print("Hi !" + name + " Your're age is :" +str(age) ) # CAST
     # you cannot print a number with string! all of the above is  STRING!
@@ -129,3 +129,24 @@ def sub(number1 , number2):
     return number1 - number2
     # any statement after return will not appear!
 print(sub(2,6))
+
+
+#  * If statemets :
+is_hungry= False
+wants_to_eat = True
+if is_hungry and wants_to_eat : # if one of them true the if part will exist
+    print("Go eat")
+elif is_hungry and not wants_to_eat:
+    print("Eat to survive! ")
+elif not is_hungry and wants_to_eat:
+    print("do not eat too much!")
+else :
+    print("Do not eat, Go do sport")
+
+
+# * Dictionaries :
+convert_month = { "jan" : "january" , "feb": "febraury" , "mar":"march"}
+# Every key should be uniqe!
+print(convert_month["mar"]) # march will be printed
+
+

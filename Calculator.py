@@ -1,13 +1,15 @@
-print("Welcome to the calculator App!")
-number1 = float(input("Enter the first number: "))
-number2 = float(input("Enter the second number: "))
-operation = input("Choose the Operation: ")
-if operation == "+":
-    print(number1 + number2)
-elif operation == "-":
-    print(number1 - number2)
-elif operation == "/":
-    print(number1 / number2)
-elif operation == "*":
-    print(number1 * number2)
+print("Welcome to the Calculator App! ")
+number_1 = float(input("Please enter the first number :"))
+operator = input("Please enter the Operator: ")
+number_2 = float(input("Please enter the second number :"))
 
+if operator == "+":
+    print(number_1 + number_2)
+elif operator == "-" :
+    print(number_1 - number_2)
+elif operator == "*" :
+    print(number_1 * number_2)
+elif operator == "/" :
+    print( number_1 / number_2)
+else :
+    print( "Wrong Operator please try agian !")
