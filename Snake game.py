@@ -73,3 +73,8 @@ while True:  # finite loop
     window.addch(snake[0][0], snake[0][1], curses.ACS_CKBOARD)
     # updte the position of the snake on the screen
 
+
+
+
+
+
