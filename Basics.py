@@ -145,8 +145,44 @@ else :
 
 
 # * Dictionaries :
-convert_month = { "jan" : "january" , "feb": "febraury" , "mar":"march"}
+convert_month = { "jan" : "january" , "feb": "febraury" , "mar":"march"} # key or values can be numbers
 # Every key should be uniqe!
 print(convert_month["mar"]) # march will be printed
+print(convert_month.get("jan")) # january
+print(convert_month.get("july", "the value does not exist")) # if the key does not exist ! the message will appear
+
+# * Loops :
+
+# While loop!
+i=1
+while i<= 10 :
+    i+=1
+    if i == 6:
+        continue # skips an iteration! i =6
+    print(i)
+    #break means Go out of the loop !
+print("the loop has ended! ")
+
+# For loop!
+for letter in "codezilla" :
+    print(letter)
+buddies = ["alya", "seham", "Shatha"]
+for i in buddies :
+    print(i)
+
+for i in range(5,10): #  5 6 7 8 9
+    print(i)
+print(len(buddies))  # 3 elements in my list !
+
+for i in range(len(buddies)): #  0,1,2
+    print(i)
+#print the values in my list !
+
+for i in range(len(buddies)):
+    print(buddies[i])   # buddies[0] = alya  etc..
+for x in range(3,10) :
+    if x ==5:
+        continue
+    print(x, " is the choosen number! ")
 
 
